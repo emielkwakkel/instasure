@@ -22,6 +22,6 @@ import { SharedModule } from './shared/shared.module';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [NgbModule],
+  exports: [NgbModule, SharedModule],
 })
 export class AppModule { }
