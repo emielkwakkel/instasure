@@ -1,0 +1,16 @@
+<div class="wrapper d-flex flex-column">
+  <ul class="d-flex flex-column justify-content-end m-0">
+    <li *ngFor="let chat of conversation" class="">{{ chat.message }}</li>
+  </ul>
+
+  <nav class="navbar">
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="col-md-12">
+      <div class="input-group">
+        <input class="form-control" formControlName="chatInput">
+        <div class="input-group-append">
+          <button type="submit" class="btn btn-primary">Chat</button>
+        </div>
+      </div>
+    </form>
+  </nav>
+</div>

@@ -1,0 +1,19 @@
+.wrapper {
+  height: 100%;
+  flex:1;
+}
+
+ul {
+  flex: 1 1 70%;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow-y: scroll
+}
+nav {
+  flex: 1 1 30%;
+  max-height:50px;
+  background: #333;
+  form {
+    width: 100%;
+  }
+}

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FeaturesModule } from './features/features.module';
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,8 @@ import { SharedModule } from './shared/shared.module';
     FeaturesModule,
     PagesModule,
     SharedModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
